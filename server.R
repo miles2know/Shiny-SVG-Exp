@@ -124,10 +124,6 @@ p <- ggplot(chooseWedge(), aes(x = Year, y = Ghg, group = Sector)) +
 }) 
  
 
-#sGhg$Elc <- round(sGhg$Elc,1)
-#vp = viewport(width = 5)
-
-
 
 
 

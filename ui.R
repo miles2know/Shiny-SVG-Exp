@@ -39,7 +39,7 @@ shinyUI(navbarPage("NEG/ECP Scenario Analysis",theme = shinytheme("cerulean"),
      )
    ),
        column(9,
-        wellPanel(h4("Greenhouse Gases by Sector",align="center"),style="width: 100%; height: 125%;",
+        wellPanel(h4("Greenhouse Gases by Sector",align="center"),style="width: 100%; height: 100%;",
         includeHTML("svgfiller.js"),
         reactiveSvg(outputId = "svg.grid") 
         #plotOutput("gridPlot")
